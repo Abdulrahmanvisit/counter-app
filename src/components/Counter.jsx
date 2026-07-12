@@ -24,7 +24,7 @@ function Counter() {
     };
 
   return (
-    <div className="max-w-xs mx-auto bg-white rounded-2xl shadow-lg p-8 text-center ">
+    <div className="max-w-sm mx-auto bg-white rounded-2xl shadow-lg p-8 text-center ">
         <h1 className="text-2xl font-bold text-gray-800">Counter</h1>
         <p className={`text-6xl font-bold text-gray-500 transition-transform duration-300 ${animate ? 'scale-110' : 'scale-100'}`}>Count: {count}</p>
 
